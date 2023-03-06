@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+
+            width:  70vw;
+            margin: 0 auto;
+        }
+        .input {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class = "container">
+        <h1>Play the Lucky Game</h1>
+        <h2 class = "winner"></h2> 
+        <p class = "lucky-number">Winning Score: <span>0</span></p>
+        <p>Player-1:<span class = "p1">0</span> Player-2:<span class = "p2">0</span></p>
+        <div class = "input">
+            <form>
+                <label>Enter:</label>
+                <input type = "number" id = "luck-Input">
+                <input type = "submit" value="Submit">
+                <input type = "button" value = "Reset" id="reset">
+            </form>
+        </div>
+        <div>
+            <button class = "p1Btn">Player1</button>
+            <button class = "p2Btn">Player2</button>
+        </div>
+    </div>
+    <script src = "main.js"></script>
+    
+</body>
+</html>
